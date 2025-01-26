@@ -1,4 +1,4 @@
-package com.github.phfbueno.EncurtadorURL;
+package com.github.phfbueno.encurtadorurl;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

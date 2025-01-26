@@ -1,4 +1,4 @@
-package com.github.phfbueno.EncurtadorURL.dto;
+package com.github.phfbueno.encurtadorurl.dto;
 
 public record ShortnerUrlRequest(String url) {
 }

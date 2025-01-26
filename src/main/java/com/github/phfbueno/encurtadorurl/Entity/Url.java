@@ -1,4 +1,4 @@
-package com.github.phfbueno.EncurtadorURL.Entity;
+package com.github.phfbueno.encurtadorurl.Entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,7 +13,6 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 public class Url {
 
     @Id
@@ -22,4 +21,22 @@ public class Url {
     private String UrlOrinal;
 
     private LocalDateTime timeExpires;
+
+    public Url(String id, String urlOrinal, LocalDateTime timeExpires) {
+        this.id = id;
+        this.UrlOrinal = urlOrinal;
+        this.timeExpires = timeExpires;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getUrlOrinal() {
+        return UrlOrinal;
+    }
+
+    public LocalDateTime getTimeExpires() {
+        return timeExpires;
+    }
 }

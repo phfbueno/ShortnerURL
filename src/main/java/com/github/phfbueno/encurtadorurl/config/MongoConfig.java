@@ -1,4 +1,4 @@
-package com.github.phfbueno.EncurtadorURL.config;
+package com.github.phfbueno.encurtadorurl.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.core.MongoTemplate;
